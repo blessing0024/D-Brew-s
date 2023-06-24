@@ -26,6 +26,7 @@ nav{
     justify-content: space-between;
     padding: 10px 5%;
     background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .logo{
@@ -117,8 +118,17 @@ nav{
 
 .container-x h2{
     font-size: 40px;
-    padding-left: 100px;
+    padding-bottom: 10px;
     color: #000;
+    text-align: center;
+}
+
+.container-x .menu-p{
+    padding-left: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
 }
 
 .menu-list{
@@ -147,9 +157,199 @@ nav{
 
 .menu-list .second{
     padding-bottom: 15px;
+    font-family: 'EB Garamond', serif;
+
 }
 
 nav .fa-bars{
     display: none;
+}
+
+.line{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+ 
+
+
+
+
+
+/* .container-y{
+   
+} */
+
+.container-y h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #000;
+    text-align: center;
+}
+
+.container-y .list-p{
+    padding-left: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+.container-y ul li{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.container-y ul{
+    margin-bottom: 40px;
+}
+
+.line-y{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+/* .container-z{
+    /* padding: 50px 7%; */
+
+.container-z .footer{
+    text-align: center;
+    background-color: #f2f2f2;
+}
+/* #f8f8f8 */
+.footer h2{
+    font-size: 40px;
 
 }
+
+.footer p{
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.icons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons a{
+    color: #727272;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.icons a:hover{
+    color: black;
+    transform: rotate(-90deg);
+}
+
+.footer iframe{
+    border-radius: 15px;
+    /* border: solid 50px #fff; */
+}
+
+.copyright{
+    background-color: #888;
+    padding: 12px 3%;
+}
+
+.copyright p{
+    font-size: 17px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+
+
+    body{
+        width: 70%;
+    }
+
+    .logo{
+        position: fixed;
+        top: 4%;
+        left: 3%;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 70%;
+        padding: 100px 5% 0;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.3s;
+    }
+
+    nav .nav-list li{
+        margin: 10px 0;
+        display: block;
+    }
+
+    .order-btn{
+        background-color: #000;
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
+
+    nav .fa-bars{
+        display: block;
+        position: fixed;
+        top: 9%;
+        left: 3%;
+        padding-left: 60%;
+        font-size: 25px;
+    }
+
+
+
+
+
+
+
+    .header .text-1{
+        padding-top: 125px;
+        font-size: 27px;
+    }
+
+    .container h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    .footer iframe{
+        width: 80%;
+        height: 90%;
+    }
+}
+
+
+    
