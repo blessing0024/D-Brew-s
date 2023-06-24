@@ -21,6 +21,8 @@ font-family: 'Playfair', serif; */
 }
 
 nav{
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +179,7 @@ nav .fa-bars{
 
 
 /* .container-y{
-   
+   padding: 3px;
 } */
 
 .container-y h2{
@@ -185,6 +187,7 @@ nav .fa-bars{
     padding-bottom: 10px;
     color: #000;
     text-align: center;
+    padding-top: 0;
 }
 
 .container-y .list-p{
@@ -204,6 +207,8 @@ nav .fa-bars{
     padding-bottom: 5px;
     margin-bottom: 5px;
 }
+
+
 
 .container-y ul{
     margin-bottom: 40px;
@@ -277,7 +282,7 @@ nav .fa-bars{
 
 
     body{
-        width: 70%;
+        width: 100%;
     }
 
     .logo{
@@ -291,8 +296,8 @@ nav .fa-bars{
         top: 0;
         z-index: 100;
         display: inline-block;
-        width: 70%;
-        padding: 100px 5% 0;
+        width: 100%;
+        padding: 100px 3% 0;
         text-align: right;
         max-height: 100px;
         overflow: hidden;
@@ -305,18 +310,23 @@ nav .fa-bars{
     }
 
     .order-btn{
-        background-color: #000;
+        background-color: #333;
         margin: 15px 0 30px;
         display: inline-block;
+        color: #fff;
     }
 
     nav .fa-bars{
         display: block;
         position: fixed;
-        top: 9%;
+        top: 8%;
         left: 3%;
-        padding-left: 60%;
+        padding-left: 85%;
         font-size: 25px;
+    }
+
+    .hidemenu{
+        max-height: 500px;
     }
 
 
@@ -326,7 +336,7 @@ nav .fa-bars{
 
 
     .header .text-1{
-        padding-top: 125px;
+        padding-top: 90px;
         font-size: 27px;
     }
 
@@ -334,7 +344,39 @@ nav .fa-bars{
         text-align: center;
         font-size: 50px;
     }
+
+    .container .text-2{
+        font-size: 20px;
+    }
+
+
+    .container-x{
+        padding: 15%;
+        
+    }
+
+    .container-x h2{
+        padding-bottom: 0px;
+    }
+
+    .container-x .menu-p{
+        font-size: 25px;
+    }
     
+    .menu-list{
+        display: block;
+        /* padding-left: 50px; */
+    }
+
+    .menu-list div{
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    .menu-list div img{
+        width: 90%;
+        border-radius: 10px;
+    }
 
 
 
@@ -342,12 +384,22 @@ nav .fa-bars{
 
 
 
+    /* .container-z{
+        padding: 15%;
+    } */
 
-
+    .container-z p{
+        font-size: 15px;
+        padding: 3%;
+    }
 
     .footer iframe{
-        width: 80%;
-        height: 90%;
+        width: 90%;
+        height: 100%;
+    }
+
+    .copyright{
+        padding: 1px;
     }
 }
 
